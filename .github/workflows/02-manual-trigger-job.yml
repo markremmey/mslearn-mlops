@@ -16,6 +16,6 @@ jobs:
       with:
         creds: ${{secrets.AZURE_CREDENTIALS}}
     - name: Run job
-      run: ./src/job.yml
+      run: az ml job create ./src/job.yml
 
 
