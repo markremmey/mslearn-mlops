@@ -9,6 +9,6 @@ inputs:
     path: azureml://subscriptions/4631da48-3edb-42d8-93a7-4644a2596140/resourcegroups/rg-ml-dev-001/workspaces/ml-dev-workspace/datastores/workspaceblobstore/paths/LocalUpload/de8020a91c295605114900a420686f6e/diabetes-dev.csv
   reg_rate: 0.01
 environment: azureml:AzureML-sklearn-0.24-ubuntu18.04-py37-cpu@latest
-compute: azureml:markremmey1
+compute: azureml:markremmey-cluster
 experiment_name: mslearn-exp
 description: Train a scikit-learn model on the diabetes dataset
