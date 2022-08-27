@@ -6,6 +6,9 @@ on:
       - main
       
 jobs:
-  - name: Placeholder
-    run: |
-        echo "Will add code checks here in next challenge"
+  job_1:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Placeholder
+      run: |
+          echo "Will add code checks here in next challenge"
