@@ -1,7 +1,11 @@
+name: placeholder
+
 on:
-  pull:
+  push:
     branches:
       - main
-- name: Placeholder
-      run: |
+      
+jobs:
+  - name: Placeholder
+    run: |
         echo "Will add code checks here in next challenge"
