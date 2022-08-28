@@ -27,4 +27,4 @@ jobs:
         python -m pip install pytest
     - name: Run unit tests
       run: |
-        pytest src/model/
+        pytest tests/
